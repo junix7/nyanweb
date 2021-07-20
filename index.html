@@ -18,13 +18,18 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
     />
+     <!-- AnimateCSS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- MDB -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
       rel="stylesheet"
     />
+    <!-- AOSJS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <title>Nyanbot | cuttie than you!</title>
+    <title>Nyanbot | Not cute!</title>
   </head>
   <body>
        <header>
@@ -44,7 +49,7 @@
   </style>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top lead">
     <div class="container-fluid">
       <button
         class="navbar-toggler"
@@ -80,13 +85,18 @@
   </nav>
   <!-- Navbar -->
   <!-- Background image -->
-  <div id="intro-example" class="p-5 text-center bg-image" style="background-image: url('nyancodebannertwitch2.jpg');">
+  <div data-aos="fade-up" data-aos-duration="3000" id="intro-example" class="p-5 text-center bg-image lead" style="background-image: url('images/banner.png');">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
       <div class="d-flex justify-content-center align-items-center h-100">
         <div class="text-white">
-          <h1 class="mb-3 display-2">NyanBot | Cuttie than you!!</h1>
-          <h2 class="mb-4">Hi! I'm NyanBot a cuttie & funny discord bot.</h2>
-          <a class="btn btn-outline-secondary btn-lg m-2" href="#" target="_blank">Invite</a>
+          <h1  class="mb-3 display-1 animate__animated animate__bounce animate__infinite   infinite">NYANBOT</h1>
+         
+
+          <h2 class="mb-4"><span class="typer text-primary" id="main" data-words="Funny Bot.,Not cute!!.,Entertain Bot.,Happy Bot.,Nice Bot.,Awesome Bot.,Discord Bot." data-dalay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span>
+          </h2>
+
+
+          <a class="btn btn-outline-secondary btn-lg m-2" href="https://discord.com/api/oauth2/authorize?client_id=855848462251065344&permissions=8&scope=bot" target="_blank">Invite</a>
           <a class="btn btn-outline-success btn-lg m-2" href="https://discord.gg/RrwfGVdZhH"       target="_blank">Discord</a>
         </div>
       </div>
@@ -94,26 +104,37 @@
   </div>
   <!-- Background image -->
 </header>
-<section  id="about"><br><br>
-  <article class="container my-5 p-md-5 shadow-sm bg-light">
+<section  id="about" data-aos="fade-up"
+     data-aos-duration="3000"><br><br>
+
+
+
+  <article class="container my-5 p-md-5 border rounded shadow-lg bg-light lead">
 
     <div class="row">
       <div class="col-md-4">
-        <img class="border border-5 border-primary rounded-circle img-fluid" src="images/nyanbot.png">
+        <img class="border  border-info rounded img-fluid" data-aos="flip-left" data-aos-duration="2000" src="images/8f7.gif">
       </div>
-      <div class="col-md-8 mt-3">
-        <h2 class="mb-3">About NyanBot</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolores incidunt, laborum amet. Nobis officiis ipsam, maiores beatae, aspernatur vero nemo est veniam? Aliquid cum, rem culpa? Obcaecati labore, asperiores doloribus.
-        At, placeat debitis consequuntur impedit. Aperiam dolorem obcaecati impedit quaerat perferendis officia iusto, sapiente a libero at deserunt rerum molestias quod modi quos pariatur quas, itaque consectetur vitae adipisci totam!</p>
+      <div class="col-md-8">
+        <h2 class="display-4">About NyanBot</h2>
+        <p>Hola, soy <code>Nyanbot</code>, un bot de Discord desarrollado para entretener, mi padre es <b>NyanCode</b>, un ingeniero de sistemas asombroso!. Actualmente poseeo muchos amigos y espero tener más amigos para jugar, puedes preguntarme muchas cosas y te contestaré.</p> 
+        <p>Me gusta dar abrazos, palmaditas, bailar y reír,tengo una hermana llamada <b>NyanBotDev</b>, ella prueba muchos comandos nuevos y divertidos!,  gracias a ella tengo muchos comandos para entretenerte, puedo mostrarte muchas waifus, recomendarte un anime y puedes invitarme a tu servidor de Discord.</p>
       </div>
     </div>
   </article>
 </section>
-<section id="commands"><br><br>
+<section id="commands" data-aos="fade-up"
+     data-aos-duration="3000"><br><br>
   <article class="container my-5" >
-    <h2 class="text-center my-5">Command List</h2>
-    <div class="row mx-md-5">
-      <div class="col-md-5 border rounded p-4 shadow-sm bg-light">
+    <h2 class="text-center my-5 display-4">Command List</h2><hr>
+      <div class="text-center my-5">
+        <img class="border  border-info rounded" data-aos="flip-left" data-aos-duration="2000" src="images/tensor.gif">
+        <br>
+        <p class="mx-md-5 lead">Esta es mi lista de comandos pronto tendré muchos más comandos también puedes sugerir nuevos comandos enviándome un correo electrónico en la sección de contacto.</p>
+      </div><hr><br>
+    <div class="row mx-md-5" data-aos="fade-up"
+     data-aos-duration="3000">
+      <div class="col-md-5 border rounded p-4 shadow-lg bg-light border-info">
         <ul>
              <li><code>8ball:</code> Nyanbot responde a tus preguntas.</li>
              <li><code>ameno:</code> ameno dorime   .</li>
@@ -137,7 +158,7 @@
       <div class="col-md-2">
         
       </div>
-      <div class="col-md-5 border rounded p-4 shadow-sm bg-light">
+      <div class="col-md-5 border rounded p-4 shadow-lg bg-light border-success">
         <ul>
 
              <li><code>help:</code> te envia informacion de los comandos.</li>
@@ -158,11 +179,70 @@
         </ul>
       </div>
     </div>
-  </article>
+  </article><br><br>
 </section>
 
+<section  id="news" data-aos="fade-up"
+     data-aos-duration="3000">
+  <br><br>
+  <article class="container my-5 border rounded shadow-lg bg-light">
+    <div class="row p-4">
+    <div class="col-md-4">
+      <img class="border  border-info rounded" data-aos="flip-left" data-aos-duration="2000" src="images/tenor.gif">
+    </div>
+    <div class="col-md-8 lead">
+      <h3>News</h3>
+      <ul>
+        <li>21/07/21: Nuevos comandos agregados</li>
+        <li>21/07/21: Mas waifus agregadas.</li>
+        <li>20/07/21: Nueva página web para nyanbot.</li>
+        <li>18/07/21: Nuevos comandos agregados.</li>
+        <li>14/07/21: Agregada funcionalidad modular.</li> 
+      </ul>
+    </div>
+    </div>
+  </article><br><br><br>
+</section>
+
+ 
+
+      <section class="container py-4 my-4 border rounded shadow-lg" id="contact" data-aos="fade-up"
+     data-aos-duration="3000">
+        <div class="row">
+          <div class="col-md-4">
+
+            <img class="border  border-info rounded img-fluid" data-aos="flip-left" data-aos-duration="2000" src="images/contact.gif" alt="nyanbot contact" >
+            <h2 class="text-center">Contact me</h2>
+
+          </div>
+          <div class="col-md-8">
+            <form  action="https://formspree.io/f/mgeragqb"  method="POST">
+          <div class="mb-3">
+            
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name"  required>
+          </div>
+          <div class="mb-3">
+            
+            <input type="email" class="form-control" name="_replyto"  id="email" placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+            
+            <textarea class="form-control" id="subject" rows="3" name="message" placeholder="Message.." required></textarea>
+          </div>
+          <input type="submit" value="Submit" class="btn">
+        </form>
+          </div>
+    </section>
+    <br><br>
 <footer  class="container-fluid bg-primary text-white px-0 py-5 m-0 text-center">
-  <p>Copyright © 2021 NyanBot. All rights reserved.</p>
+  <p class="lead">
+  
+    <a style="color:white;" href="https://discord.gg/RrwfGVdZhH" target="_blank" ;><i class="fab fa-2x fa-discord"></i></a>
+      <a style="color:white;" href="https://github.com/junix7/nyanbot2" target="_blank" ;><i class="fab fa-2x fa-github-alt"></i></a>
+    <a style="color:white;" href="https://twitter.com/junix_7" target="_blank" ;><i class="fab fa-2x fa-twitter-square"></i></a>
+  </p>
+  <p>Copyright ©  <script>document.write('2019 - ' + new Date().getFullYear())</script> 
+    NyanBot. All rights reserved.</p>
   <p>Terms | Privacy Policy | Cookie Policy </p>
 </footer>
 
@@ -174,7 +254,11 @@
       type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
     ></script>
-
+    <!-- TypeJS -->
+    <script async src="typerjs/typer.js"></script>
+    <!-- AOSJS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
    
   </body>
 </html>
